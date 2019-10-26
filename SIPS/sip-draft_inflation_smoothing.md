@@ -10,8 +10,9 @@ created: 2019-09-24
 
 ## Simple Summary
 
-This SIP gradually decreases SNX inflation by 1.4% per week starting on November 15th, 2019. In accordance with this SIP, on June 22nd, 2022 inflation will 
-cease being determined by this schedule and moved to a fixed volume inflation model (100K SNX per week), which is being a written up in a separate SIP.
+This SIP is a formal proposal for the smoothening component of [Draft SIP 36: SNX Inflationary Rewards Schedule](https://github.com/Synthetixio/SIPs/issues/36) drafted by [@deltatigernz](https://github.com/deltatigernz) and [modelled here](https://docs.google.com/spreadsheets/d/1rVXFnZSMvHEv5XpA5Q23x-cXEo7w-2T80wlAfT-YbuI/edit#gid=1640166717).
+
+This SIP gradually decreases SNX inflation by 1.4% per week starting on November 15th, 2019.
 
 ## Abstract
 
@@ -28,7 +29,7 @@ the inflation halvening presents an easily avoidable risk that we can address th
 ## Specification
 
 * Starting on November 15th, 2019, SNX inflation decreases by 1.4% per week. 
-* On June 22nd, 2022, after 188 weeks of smoothing, SNX inflation will transition to a 100K SNX per week inflation schedule. 
+* If implemented in parallel with the [Terminal Inflation SIP](https://github.com/meanderson/SIPs/blob/master/SIPS/sip-draft_terminal_snx_inflation.md), on June 22nd, 2022, after 188 weeks of smoothing, SNX inflation will transition to a 100K SNX per week inflation schedule. 
 
 ## Rationale
 
@@ -49,7 +50,7 @@ N/A
 
 ## Implementation
 
-[Model](https://docs.google.com/spreadsheets/d/1Y8rOoJrPhCRuH7zaIo5oYWzXsy1zq0rRgCTo0AqD4Rs/edit#gid=1640166717)
+[Model](https://docs.google.com/spreadsheets/d/1rVXFnZSMvHEv5XpA5Q23x-cXEo7w-2T80wlAfT-YbuI/edit#gid=1640166717)
 
 ## Copyright
 Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
